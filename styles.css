@@ -1,0 +1,76 @@
+html{
+    padding: 25px 15px;
+    background-color: white;
+    font-family: sans-serif;
+
+}
+
+body{
+    
+    padding: 0 4px;
+    background-color: rgb(237, 237, 239);
+}
+
+/* Header section */
+
+header{
+    text-align: center;
+    max-width: 900px(15vw);
+    margin: 0 auto;
+    padding: 18px 0px 5px;
+    
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+header p{
+    font-size: 14px;
+}
+
+/*  Image */
+
+figure{
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0px;   
+    background-color: white;
+    text-align: center;
+}
+
+img{
+    max-width:60%;
+    height: auto;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    
+}
+
+figcaption{
+    padding: 5px;
+    text-align:center; 
+}
+
+/* Tribute Section */
+
+
+#tribute p{
+    text-align: center;
+    margin: 40px;
+}
+
+#tribute ul{
+    
+}
+
+#tribute li{
+    margin: 20px auto;    
+}
+
+.bold{
+    font-size: large;
+    font-weight: 750;
+}
