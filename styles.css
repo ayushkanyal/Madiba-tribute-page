@@ -65,7 +65,6 @@ figcaption{
 h3{
     text-align: center;
     width: 50%;
-    border: 10px solid;
 }
 
 #list-container{
@@ -74,7 +73,6 @@ h3{
 }
 
 #tribute ul{
-    border: 10px solid;
     list-style-position: inside;
 }
 
