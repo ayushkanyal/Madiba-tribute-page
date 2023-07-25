@@ -1,14 +1,16 @@
 html{
-    padding: 25px 15px;
+    padding: 25px 1px;
     background-color: white;
     font-family: sans-serif;
-
+    
 }
 
 body{
-    
-    padding: 0 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    padding: 10px 2px;
     background-color: rgb(237, 237, 239);
+    color: #333;
 }
 
 /* Header section */
@@ -30,11 +32,15 @@ header p{
     font-size: 14px;
 }
 
+.margin-adjust{
+    margin: 50px auto 30px;
+}
+
 /*  Image */
 
 figure{
 
-    width: 100%;
+    width: 98.5%;
     margin: 0 auto;
     padding: 10px 0px;   
     background-color: white;
@@ -56,21 +62,37 @@ figcaption{
 
 /* Tribute Section */
 
-
-#tribute p{
+h3{
     text-align: center;
-    margin: 40px;
+    width: 50%;
+    border: 10px solid;
+}
+
+#list-container{
+    width: 40%;
+    margin: 0 auto;
 }
 
 #tribute ul{
-    
+    border: 10px solid;
+    list-style-position: inside;
 }
 
-#tribute li{
+#tribute li{   
     margin: 20px auto;    
 }
 
-.bold{
-    font-size: large;
-    font-weight: 750;
+/* End quote */
+
+#end-quote{  
+    font-size: 15px;
+    font-weight: 100;
+    width: 40%;
+}
+
+/* Further Reading */
+
+#further-reading{
+    text-align: center;
+    width: 80%;
 }
